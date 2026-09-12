@@ -1,0 +1,15 @@
+company,title,location,skills,salary,company_clean,salary_category
+Microsoft,Software Engineer Intern,Redmond WA,"Python, Java, Git, SQL",45,microsoft,Medium
+Amazon,Software Development Engineer Intern,Seattle WA,"Java, Python, AWS, Git",47,amazon,High
+Google,Software Engineering Intern,Mountain View CA,"Python, C++, Java, Git",50,google,High
+Capital One,Software Engineer Intern,McLean VA,"Python, Java, SQL, AWS",46,capital one,Medium
+IBM,Data Science Intern,New York NY,"Python, Pandas, SQL, Machine Learning",42,ibm,Low
+NVIDIA,Software Engineering Intern,Santa Clara CA,"C++, Python, Linux, Git",48,nvidia,High
+JPMorgan Chase,Software Engineer Intern,New York NY,"Java, Python, SQL, Git",44,jpmorgan chase,Medium
+Meta,Software Engineer Intern,Menlo Park CA,"Python, C++, JavaScript, React",50,meta,High
+Dell,Software Engineer Intern,Round Rock TX,"Java, Python, SQL, Git",40,dell,Low
+Salesforce,Software Engineer Intern,San Francisco CA,"Java, Python, AWS, SQL",47,salesforce,High
+Oracle,Software Engineer Intern,Austin TX,"Java, SQL, Git",43,oracle,Medium
+Adobe,Software Engineer Intern,San Jose CA,"Python, JavaScript, Git",45,adobe,Medium
+Cisco,Software Engineer Intern,San Jose CA,Unknown,41,cisco,Low
+Spotify,Software Engineer Intern,New York NY,"Python, JavaScript, AWS",45,spotify,Medium
