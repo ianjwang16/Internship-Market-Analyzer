@@ -1,0 +1,11 @@
+company,title,location,skills,salary
+Microsoft,Software Engineer Intern,Redmond WA,"Python, Java, Git, SQL",45
+Amazon,Software Development Engineer Intern,Seattle WA,"Java, Python, AWS, Git",47
+Google,Software Engineering Intern,Mountain View CA,"Python, C++, Java, Git",50
+Capital One,Software Engineer Intern,McLean VA,"Python, Java, SQL, AWS",46
+IBM,Data Science Intern,New York NY,"Python, Pandas, SQL, Machine Learning",42
+NVIDIA,Software Engineering Intern,Santa Clara CA,"C++, Python, Linux, Git",48
+JPMorgan Chase,Software Engineer Intern,New York NY,"Java, Python, SQL, Git",44
+Meta,Software Engineer Intern,Menlo Park CA,"Python, C++, JavaScript, React",50
+Dell,Software Engineer Intern,Round Rock TX,"Java, Python, SQL, Git",40
+Salesforce,Software Engineer Intern,San Francisco CA,"Java, Python, AWS, SQL",47
