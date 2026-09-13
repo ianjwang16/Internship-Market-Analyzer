@@ -1,0 +1,61 @@
+category,feature,coefficient
+Data Science & Analytics,data,3.0780043759778866
+Data Science & Analytics,analytics,2.2897072917896364
+Data Science & Analytics,data science,1.2698891921237574
+Data Science & Analytics,quantitative,1.1128089855553138
+Data Science & Analytics,trading,1.043443219460395
+Data Science & Analytics,analytics intern,0.9776776864355962
+Data Science & Analytics,data analytics,0.7873441787900672
+Data Science & Analytics,data engineer,0.7634009806810627
+Data Science & Analytics,analyst,0.7588033751187044
+Data Science & Analytics,credit,0.7470962036744054
+Data Science & Analytics,science,0.7449381242675644
+Data Science & Analytics,mirakl,0.7334439802461629
+Data Science & Analytics,reporting,0.7182933285373747
+Data Science & Analytics,data analyst,0.6999815591661347
+Data Science & Analytics,business,0.6838408347291879
+Data Science & Analytics,growth,0.640405585643074
+Data Science & Analytics,di,0.6252823922145574
+Data Science & Analytics,data center,0.621505403682976
+Data Science & Analytics,insights,0.6191951606614634
+Data Science & Analytics,markets,0.6169095844115788
+Machine Learning & AI,ai,3.509432536034271
+Machine Learning & AI,research,1.346219458550762
+Machine Learning & AI,machine learning,1.0537611091579795
+Machine Learning & AI,ml,1.0332603388889843
+Machine Learning & AI,machine,1.0290932459555926
+Machine Learning & AI,robotics,0.908398149548007
+Machine Learning & AI,learning,0.848756785523118
+Machine Learning & AI,genai,0.7298429609277829
+Machine Learning & AI,applied,0.6826529899663376
+Machine Learning & AI,models,0.6799039293649967
+Machine Learning & AI,zeiss,0.5985255949495791
+Machine Learning & AI,feedzai,0.5790192249202164
+Machine Learning & AI,gpu,0.57440970228087
+Machine Learning & AI,ai intern,0.5510123832204731
+Machine Learning & AI,algorithms,0.5467014342525699
+Machine Learning & AI,10pt,0.5382037571509288
+Machine Learning & AI,size 10pt,0.5382037571509288
+Machine Learning & AI,value,0.505136354688719
+Machine Learning & AI,vision,0.49910902818461594
+Machine Learning & AI,evaluation,0.4987194535433953
+Software Engineering,software,2.9977842491889195
+Software Engineering,engineering,2.441378610246768
+Software Engineering,engineering intern,1.8031775866496322
+Software Engineering,developer,1.3058918436183946
+Software Engineering,software engineer,1.2501193407891287
+Software Engineering,engineer,0.8524059813353893
+Software Engineering,software engineering,0.8459758029300247
+Software Engineering,systems,0.8227089042474661
+Software Engineering,mechanical,0.774457258127126
+Software Engineering,manufacturing,0.739169493216448
+Software Engineering,developer intern,0.7220372411671899
+Software Engineering,tv,0.6867103511171821
+Software Engineering,design,0.6192363047167596
+Software Engineering,space,0.6009343846872665
+Software Engineering,development,0.5805417177192478
+Software Engineering,engine,0.5760126082904804
+Software Engineering,stack,0.5717393523354929
+Software Engineering,security,0.5463839009858059
+Software Engineering,software development,0.5340299031098027
+Software Engineering,technical,0.514122652951361
