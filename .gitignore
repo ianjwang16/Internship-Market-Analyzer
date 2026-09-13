@@ -3,4 +3,3 @@ __pycache__/
 .env
 .vscode/
 data/internships_newgrad_10k.csv
-models/*.pkl
