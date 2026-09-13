@@ -2,6 +2,8 @@
 
 A Python data science and machine learning application that analyzes internship job postings to identify in-demand technical skills, compare salary trends, and classify internship roles.
 
+**Live Demo:** https://internship-market-analyzer.streamlit.app
+
 ## Dashboard Screenshots
 
 ### Skill Demand
