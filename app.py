@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import boto3
+
+from io import BytesIO
 
 
 # --------------------------------------------------
@@ -14,19 +17,54 @@ st.set_page_config(
 
 
 # --------------------------------------------------
-# Load data
+# AWS configuration
 # --------------------------------------------------
 
-skill_data = pd.read_csv(
-    "data/skill_demand.csv"
+BUCKET_NAME = "internship-market-analyzer-iw"
+
+
+@st.cache_resource
+def get_s3_client():
+
+    return boto3.client("s3")
+
+
+s3 = get_s3_client()
+
+
+@st.cache_data(ttl=3600)
+def load_csv_from_s3(key):
+
+    response = s3.get_object(
+        Bucket=BUCKET_NAME,
+        Key=key
+    )
+
+    data = response[
+        "Body"
+    ].read()
+
+    return pd.read_csv(
+        BytesIO(data)
+    )
+
+
+# --------------------------------------------------
+# Load analysis data from Amazon S3
+# --------------------------------------------------
+
+skill_data = load_csv_from_s3(
+    "analysis/skill_demand.csv"
 )
 
-salary_data = pd.read_csv(
-    "data/skill_salary_analysis.csv"
+
+salary_data = load_csv_from_s3(
+    "analysis/skill_salary_analysis.csv"
 )
 
-category_data = pd.read_csv(
-    "data/category_skill_demand.csv"
+
+category_data = load_csv_from_s3(
+    "analysis/category_skill_demand.csv"
 )
 
 

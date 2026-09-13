@@ -1,4 +1,5 @@
 import boto3
+import pandas as pd
 
 
 BUCKET_NAME = "internship-market-analyzer-iw"
@@ -14,6 +15,9 @@ s3.download_file(
 )
 
 
-print(
-    "Downloaded skill demand data from S3."
+df = pd.read_csv(
+    "data/skill_demand_from_s3.csv"
 )
+
+
+print(df.head())
